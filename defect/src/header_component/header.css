@@ -1,0 +1,97 @@
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-image: linear-gradient( rgb(201, 222, 236), #6b7777);
+  padding: 23px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: rgba(250, 36, 36, 0.692);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 10px;
+  border-radius: 4px;
+
+  top: 100px;
+  left:15px;
+  
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(216, 6, 16);
+  padding-right: 6px;
+  top: 10px;
+  text-align: center;
+  left: 16px;
+  margin-left: 100px;
+}
+ 
+img{
+
+  vertical-align: right;
+  width: 100px;
+  height: 80px;
+  border-radius: 5%;
+  padding-right: 8px;
+  position: absolute;
+  z-index: 10px;
+  top: 3px;
+  left:15px;
+ 
+
+}
+  
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: rgb(250, 246, 246);
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: rgb(222, 240, 239);
+  color: rgb(237, 242, 243);
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  padding-left: 10%
+}
+
+ 
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.btn-pad{
+background-color:  rgb(245, 253, 253);
+border: none;
+color: white;
+padding: 12px 16px;
+font-size: 16px;
+cursor: pointer;
+
+}
+body {
+ 
+background-color: #cccccc;
+
+}
+
+  
+
